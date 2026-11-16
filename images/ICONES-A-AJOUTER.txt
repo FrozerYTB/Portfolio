@@ -1,0 +1,19 @@
+ICONES DU PORTFOLIO
+Format : PNG carré, fond transparent, 256 x 256 px ou plus.
+Le nom du fichier doit être EXACTEMENT celui indiqué (minuscules, sans espace).
+Dès que le fichier est dans le bon dossier, l'icône remplace les lettres.
+
+images/competences/   complet
+
+images/projets/       il manque encore :
+  noah.png           logo de N.O.A.H.
+  certification.png  projet de certification
+  jeu-lac.png        logo ou capture du jeu
+  animes-mangas.png  application d'animés et de mangas
+  sites.png          sites web
+  minecraft.png      serveur Minecraft
+
+images/loisirs/       complet
+
+
+images/contact/       complet

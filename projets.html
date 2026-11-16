@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projets · Guillaume Sainson</title>
+  <meta name="description" content="Portfolio de Guillaume Sainson, étudiant en 3e année de Bachelor Cybersécurité à Nexa Digital School, Paris.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- En-tête et menu (identiques sur toutes les pages) -->
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="index.html"><strong>Guillaume Sainson</strong></a>
+      <nav aria-label="Pages">
+        <a href="index.html">Accueil</a>
+        <a href="projets.html" aria-current="page">Projets</a>
+        <a href="competences.html">Compétences</a>
+        <a href="parcours.html">Parcours</a>
+        <a href="loisirs.html">Loisirs</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenu de la page -->
+  <main>
+  <div class="pagehead"><div class="wrap"><h1>Projets</h1><p>Ce que je construis, à l'école et sur mon temps libre.</p></div></div>
+
+  <section class="block flat">
+    <div class="wrap">
+      <div class="side"><h2>Par état</h2><p>L'étiquette à droite indique si c'est un projet perso ou d'école</p></div>
+      <div>
+<h3 class="grp pgrp">En ligne</h3>
+      <ul class="projects">
+        <li>
+          <span class="pico"><img src="images/projets/noah.png" alt="" loading="lazy" onerror="this.remove()"><span aria-hidden="true">N</span></span>
+          <h3>N.O.A.H.</h3>
+          <span class="chip">Perso</span>
+          <p><b>Neural Operational Assistant Hub</b> : mon assistant conversationnel, pensé autour du <b>respect de la vie privée</b>.<br>Il réunit un <b>chat</b>, des <b>agents spécialisés</b> (études, développement, création, business) et une <b>mémoire</b> qui retient le contexte de l'utilisateur.</p>
+          <p><b>Mon rôle</b> : l'<b>idée de départ</b> est de moi.<br>Le <b>cahier des charges</b> a été rédigé avec <b>ChatGPT</b>, puis je l'ai adapté.<br>Le <b>code est écrit par l'IA</b> : je donne les idées, je teste et je signale ce qu'il faut corriger.</p>
+          <p class="tags"><b>Python</b> · <b>Next.js</b> · codé avec Claude Code et ChatGPT · <a href="https://noah-ia.fr">noah-ia.fr</a></p>
+        </li>
+      </ul>
+<h3 class="grp pgrp">En cours</h3>
+      <ul class="projects">
+        <li>
+          <span class="pico"><img src="images/projets/certification.png" alt="" loading="lazy" onerror="this.remove()"><span aria-hidden="true">C</span></span>
+          <h3>Projet de certification</h3>
+          <span class="chip">École</span>
+          <p>Le dossier qui clôture mon bachelor, sur un <b>cas fictif</b> : <b>N.O.A.H.</b><br>devenue une start-up de <b>25 personnes</b> qui s'installe dans <b>150 m² de bureaux</b> à <b>Paris</b>.<br>Je conçois son <b>infrastructure</b> : réseau découpé en <b>6 <a class="term" href="#lex-vlan" data-def="VLAN : Virtual Local Area Network&#10;Réseau local virtuel.&#10;Il découpe un réseau physique en plusieurs réseaux isolés les uns des autres.">VLAN</a></b>, architecture <b><a class="term" href="#lex-zero-trust" data-def="Zero Trust : Confiance zéro&#10;Modèle de sécurité où aucun accès n&#x27;est fiable par défaut.&#10;Chaque connexion est vérifiée, même depuis l&#x27;intérieur du réseau.">Zero Trust</a></b>, <b><a class="term" href="#lex-mfa" data-def="MFA : Multi-Factor Authentication&#10;Authentification à plusieurs facteurs.&#10;En plus du mot de passe, il faut un code ou un appareil.&#10;Un mot de passe volé ne suffit donc plus.">MFA</a></b> pour tous les comptes, interconnexion avec le <b>cloud</b>, disponibilité visée de <b>99,9 %</b>.</p>
+          <p><b>Quatre volets</b> : <b>concevoir</b> l'infrastructure, la <b>déployer</b> et la <b>sécuriser</b>, la <b>superviser</b>, gérer les <b>incidents</b> et la <b>maintenance</b>.<br><b>Soutenance de 45 minutes</b> devant un jury.</p>
+          <p class="tags">Bachelor 3 · <b>Titre RNCP 41807</b> · <a class="term" href="#lex-rgpd" data-def="RGPD : Règlement Général sur la Protection des Données&#10;Règlement européen qui encadre la collecte et la protection des données personnelles.">RGPD</a>, <a class="term" href="#lex-nis-2" data-def="NIS 2 : Network and Information Security, version 2&#10;Directive européenne qui impose des mesures de cybersécurité aux entreprises de nombreux secteurs.&#10;Elle oblige aussi à déclarer les incidents.">NIS 2</a>, <a class="term" href="#lex-rgaa" data-def="RGAA : Référentiel Général d&#x27;Amélioration de l&#x27;Accessibilité&#10;Référentiel français d&#x27;accessibilité numérique.&#10;Il vise à rendre les outils utilisables par les personnes en situation de handicap.">RGAA</a></p>
+          <details class="more">
+            <summary>En savoir plus</summary>
+            <div class="more-body">
+              <p class="note">Projet en cours.<br>Les <b>sections 1 et 2</b> du dossier technique sont rédigées ; le reste du bloc présente les attendus du projet.</p>
+
+              <h4>Le cas d'étude</h4>
+              <p><b>N.O.A.H.</b><br>est ici une <b><a class="term" href="#lex-sas" data-def="SAS : Société par Actions Simplifiée&#10;Forme juridique d&#x27;entreprise française, souple et courante chez les start-up.">SAS</a></b> qui édite une plateforme d'<b>IA conversationnelle</b> centrée sur la vie privée.<br>Elle compte <b>25 collaborateurs</b> répartis en <b>6 pôles</b>, s'installe dans <b>150 m²</b> à <b>Paris</b>, et 30 % de l'équipe est en télétravail partiel.<br>Point de départ : une <b>box grand public</b>, aucune segmentation, pas de <b>MFA</b>, pas d'<b>annuaire centralisé</b> et des fichiers partagés sur des clouds personnels.<br>Objectif de croissance : <b>50 personnes</b> d'ici 18 mois, et peut-être un deuxième site en province.</p>
+              <p>Ma mission, dans le rôle d'un cabinet de conseil : <b>concevoir, dimensionner et documenter</b> l'infrastructure IT des nouveaux bureaux, en <b><a class="term" href="#lex-security-by-design" data-def="Security by Design : Sécurité dès la conception&#10;Principe qui consiste à intégrer la sécurité dès la conception.&#10;On ne l&#x27;ajoute pas après coup.">Security by Design</a></b>, conforme au <b>RGPD</b>, à <b>NIS 2</b> et au <b>RGAA</b>, et hybride entre <b>local</b> et <b>cloud</b>.</p>
+
+              <h4>Les objectifs chiffrés</h4>
+              <dl class="kpis">
+                <div><dt>99,9 %</dt><dd>disponibilité, soit moins de 8 h 45 de coupure par an</dd></div>
+                <div><dt>&lt; 1 h</dt><dd><a class="term" href="#lex-rpo" data-def="RPO : Recovery Point Objective&#10;Quantité maximale de données qu&#x27;on accepte de perdre lors d&#x27;un incident.&#10;Elle s&#x27;exprime en temps écoulé depuis la dernière sauvegarde.">RPO</a> (perte de données max.)</dd></div>
+                <div><dt>&lt; 4 h</dt><dd><a class="term" href="#lex-rto" data-def="RTO : Recovery Time Objective&#10;Durée maximale acceptée pour remettre un service en marche après un incident.">RTO</a> (remise en service)</dd></div>
+                <div><dt>6 VLAN</dt><dd>réseaux isolés</dd></div>
+                <div><dt>100 %</dt><dd>des comptes en MFA</dd></div>
+                <div><dt>AES-256</dt><dd>au repos, <a class="term" href="#lex-tls-1-3" data-def="TLS 1.3 : Transport Layer Security, version 1.3&#10;Dernière version du protocole qui chiffre les échanges sur le réseau.&#10;C&#x27;est lui qui protège les sites en HTTPS.">TLS 1.3</a> en transit</dd></div>
+                <div><dt>RGAA AA</dt><dd>pour les outils internes</dd></div>
+                <div><dt>−30 %</dt><dd>d'empreinte carbone</dd></div>
+              </dl>
+
+              <h4>Ce que j'ai déjà rédigé</h4>
+              <ol class="steps">
+                <li><b>Recueil des besoins en 4 étapes</b> : ateliers métier, analyse technique, atelier transverse, validation avec la direction.</li>
+                <li><b>Besoins des 6 pôles</b> détaillés et priorisés (Développement, Commercial, RH, Direction, Sécurité, IT interne), chacun relié à une compétence du référentiel.</li>
+                <li><b>19 exigences</b> d'infrastructure consolidées dans une matrice.</li>
+                <li><b>Classification des données</b> en 5 niveaux et <b>cartographie des 9 flux critiques</b>.</li>
+                <li><b>Budget</b> et <b>priorisation <a class="term" href="#lex-moscow" data-def="MoSCoW : Must have, Should have, Could have, Won&#x27;t have&#10;Méthode de priorisation des besoins.&#10;Must : indispensable.&#10;Should : important.&#10;Could : appréciable.&#10;Won&#x27;t : pas pour cette fois.">MoSCoW</a></b> pour arbitrer les choix.</li>
+              </ol>
+
+              <h4>La classification des données</h4>
+              <div class="cls-wrap"><table class="cls">
+                <thead><tr><th scope="col">Niveau</th><th scope="col">Exemples</th><th scope="col">Protection</th></tr></thead>
+                <tbody>
+                  <tr><td><b>C1</b> Publique</td><td>site web, documentation</td><td><a class="term" href="#lex-https" data-def="HTTPS : HyperText Transfer Protocol Secure&#10;Version sécurisée du protocole utilisé pour afficher les pages web.&#10;Les échanges y sont chiffrés avec TLS.">HTTPS</a></td></tr>
+                  <tr><td><b>C2</b> Interne</td><td>e-mails internes, tickets</td><td>accès authentifié, chiffrement en transit</td></tr>
+                  <tr><td><b>C3</b> Confidentielle</td><td>code source, modèles d'IA, logs de sécurité</td><td>chiffrement au repos, <a class="term" href="#lex-rbac" data-def="RBAC : Role-Based Access Control&#10;Gestion des droits selon le rôle.&#10;Chaque personne n&#x27;accède qu&#x27;à ce dont son poste a besoin.">RBAC</a>, journalisation</td></tr>
+                  <tr><td><b>C4</b> Critique</td><td>données des utilisateurs, paie, contrats</td><td><a class="term" href="#lex-aes-256" data-def="AES-256 : Advanced Encryption Standard, 256 bits&#10;Algorithme de chiffrement qui utilise des clés de 256 bits.&#10;C&#x27;est le standard pour protéger des données stockées.">AES-256</a>, MFA, RBAC, audit immuable</td></tr>
+                  <tr><td><b>C5</b> Réglementée</td><td>jetons de paiement Stripe et PayPal</td><td><a class="term" href="#lex-pci-dss" data-def="PCI-DSS : Payment Card Industry Data Security Standard&#10;Norme de sécurité obligatoire pour traiter des données de cartes bancaires.">PCI-DSS</a>, délégué au prestataire</td></tr>
+                </tbody>
+              </table></div>
+
+              <h4>Le budget et les priorités</h4>
+              <dl class="kpis">
+                <div><dt>40 – 60 k€</dt><dd>investissement initial (<a class="term" href="#lex-capex" data-def="CAPEX : Capital Expenditure&#10;Dépenses d&#x27;investissement.&#10;C&#x27;est l&#x27;achat du matériel : serveurs, pare-feu, postes.">CAPEX</a>)</dd></div>
+                <div><dt>25 – 35 k€</dt><dd>fonctionnement par an (<a class="term" href="#lex-opex" data-def="OPEX : Operational Expenditure&#10;Dépenses de fonctionnement qui reviennent chaque année : licences, maintenance, abonnements cloud, électricité.">OPEX</a>)</dd></div>
+                <div><dt>15 %</dt><dd>des postes en matériel reconditionné</dd></div>
+              </dl>
+              <ul class="moscow">
+                <li><span class="lab"><b>Must</b> indispensable</span><span class="bar" style="--w:70%"></span><span class="pct">70 %</span><small>pare-feu <a class="term" href="#lex-ngfw" data-def="NGFW : Next-Generation Firewall&#10;Pare-feu de nouvelle génération.&#10;Il filtre le trafic et inspecte aussi son contenu pour repérer les applications et les menaces.">NGFW</a>, VLAN, MFA, chiffrement, sauvegardes, <a class="term" href="#lex-active-directory" data-def="Annuaire de Microsoft qui centralise les comptes des utilisateurs et leurs droits d&#x27;accès.">Active Directory</a></small></li>
+                <li><span class="lab"><b>Should</b> important</span><span class="bar" style="--w:20%"></span><span class="pct">20 %</span><small><a class="term" href="#lex-sd-wan" data-def="SD-WAN : Software-Defined Wide Area Network&#10;Technologie qui relie les sites et les télétravailleurs au réseau de l&#x27;entreprise.&#10;Elle est pilotée par logiciel.">SD-WAN</a> / <a class="term" href="#lex-ztna" data-def="ZTNA : Zero Trust Network Access&#10;Accès distant fondé sur le Zero Trust.&#10;Il remplace souvent un VPN classique.">ZTNA</a>, <a class="term" href="#lex-siem" data-def="SIEM : Security Information and Event Management&#10;Outil qui rassemble les journaux de tous les équipements.&#10;Il les analyse pour repérer les incidents de sécurité.">SIEM</a>, <a class="term" href="#lex-edr-xdr" data-def="EDR / XDR : Endpoint Detection and Response / Extended Detection and Response&#10;Outils qui détectent les menaces et y réagissent.&#10;L&#x27;EDR surveille les postes et les serveurs, le XDR l&#x27;ensemble du système.">EDR/XDR</a>, conformité RGAA</small></li>
+                <li><span class="lab"><b>Could</b> appréciable</span><span class="bar" style="--w:8%"></span><span class="pct">8 %</span><small>matériel reconditionné, <a class="term" href="#lex-finops" data-def="FinOps : Financial Operations&#10;Démarche de suivi et de maîtrise des coûts du cloud.">FinOps</a> avancé, documentation anglaise complète</small></li>
+                <li><span class="lab"><b>Won't</b> plus tard</span><span class="bar" style="--w:2%"></span><span class="pct">2 %</span><small>multi-sites complet, maintenance prédictive par IA</small></li>
+              </ul>
+
+              <h4>Le découpage réseau</h4>
+              <ul class="vlans">
+                <li><b>VLAN 10</b> Direction</li>
+                <li><b>VLAN 20</b> Développement</li>
+                <li><b>VLAN 30</b> Commercial et marketing</li>
+                <li><b>VLAN 40</b> RH et administration</li>
+                <li><b>VLAN 50</b> Admin et sécurité</li>
+                <li><b>VLAN 60</b> Invités, accès Internet seul</li>
+              </ul>
+
+              <h4>Les 4 volets à réaliser</h4>
+              <div class="blocs">
+                <section>
+                  <h5><span>1</span> Concevoir <em class="state">en cours</em></h5>
+                  <p>Analyser les besoins, <b>cartographier</b> l'existant, <b>auditer</b> les vulnérabilités, puis concevoir une architecture <b>Security by Design</b>, hybride entre local et cloud, avec son coût global (<a class="term" href="#lex-tco-roi" data-def="TCO / ROI : Total Cost of Ownership / Return On Investment&#10;Le TCO est le coût total de possession : achat, maintenance et énergie sur plusieurs années.&#10;Le ROI est le retour sur investissement.">TCO / ROI</a>).</p>
+                  <p class="tags">Nmap · Wireshark · Nessus · OpenVAS · Metasploit · SD-WAN · ZTNA</p>
+                </section>
+                <section>
+                  <h5><span>2</span> Déployer et sécuriser</h5>
+                  <p>Installer le réseau (<b>switches</b>, <b>routeurs</b>, <b>pare-feu NGFW</b>, <b>Wi-Fi</b>), les serveurs virtualisés, l'<b>annuaire</b> et les bases de données, durcir les postes et <b>automatiser</b> le déploiement.</p>
+                  <p class="tags"><a class="term" href="#lex-proxmox" data-def="Plateforme libre de virtualisation.&#10;Elle fait tourner plusieurs machines virtuelles sur un même serveur.">Proxmox</a> · VMware · <a class="term" href="#lex-wpa3" data-def="WPA3-Enterprise : Wi-Fi Protected Access 3, version Entreprise&#10;Sécurité Wi-Fi où chaque collaborateur se connecte avec ses propres identifiants.">WPA3-Enterprise</a> · Active Directory · Azure AD · <a class="term" href="#lex-sso" data-def="SSO : Single Sign-On&#10;Authentification unique.&#10;On se connecte une fois pour accéder à toutes les applications.">SSO</a> · Docker · Kubernetes · GitLab CI · Terraform · Ansible</p>
+                </section>
+                <section>
+                  <h5><span>3</span> Superviser</h5>
+                  <p>Analyser les menaces, configurer les <b>alertes</b>, écrire les <b>procédures de réponse</b> aux incidents, gérer les droits d'accès et suivre des <b>indicateurs</b> dans un tableau de bord.</p>
+                  <p class="tags">SIEM · <a class="term" href="#lex-ids-ips" data-def="IDS / IPS : Intrusion Detection System / Intrusion Prevention System&#10;Systèmes qui surveillent le réseau.&#10;L&#x27;IDS détecte les tentatives d&#x27;intrusion, l&#x27;IPS les bloque.">IDS/IPS</a> · EDR/XDR · <a class="term" href="#lex-soar" data-def="SOAR : Security Orchestration, Automation and Response&#10;Outil qui automatise la réponse aux incidents.&#10;Il s&#x27;appuie sur des scénarios écrits à l&#x27;avance, appelés playbooks.">SOAR</a> · RBAC · <a class="term" href="#lex-bastion" data-def="Serveur sécurisé par lequel passent obligatoirement tous les accès d&#x27;administration.&#10;Il permet de les contrôler et de les tracer.">Bastion</a> · Nagios · Zabbix · <a class="term" href="#lex-cert-fr" data-def="CERT-FR : Computer Emergency Response Team France&#10;Centre gouvernemental rattaché à l&#x27;ANSSI (Agence nationale de la sécurité des systèmes d&#x27;information).&#10;Il publie des alertes sur les failles et les attaques en cours.">CERT-FR</a></p>
+                </section>
+                <section>
+                  <h5><span>4</span> Maintenir</h5>
+                  <p>Planifier la <b>maintenance</b>, gérer les <b>correctifs</b>, suivre les demandes internes et externes dans deux outils de tickets séparés, tester la <b>sauvegarde et la reprise</b> (<a class="term" href="#lex-pca-pra" data-def="PCA / PRA : Plan de Continuité d&#x27;Activité / Plan de Reprise d&#x27;Activité&#10;Le PCA permet de continuer à fonctionner pendant une crise.&#10;Le PRA permet de redémarrer après un sinistre.">PCA / PRA</a>) et mener les <b>audits</b>.</p>
+                  <p class="tags">WSUS · Intune · <a class="term" href="#lex-glpi" data-def="GLPI : Gestionnaire Libre de Parc Informatique&#10;Logiciel libre de gestion des tickets de support et de l&#x27;inventaire du parc informatique.">GLPI</a> · Zendesk · Nextcloud · PCA/PRA · <a class="term" href="#lex-iso-27001" data-def="ISO 27001 : International Organization for Standardization, norme 27001&#10;Norme internationale qui définit comment organiser et piloter la sécurité de l&#x27;information dans une entreprise.">ISO 27001</a> · NIS 2</p>
+                </section>
+              </div>
+
+              <h4>La stack de l'entreprise</h4>
+              <p class="tags">Next.js 14 · TypeScript · Tailwind CSS · MySQL · <a class="term" href="#lex-api" data-def="API : Application Programming Interface&#10;Interface qui permet à deux logiciels de communiquer.&#10;N.O.A.H. passe par l&#x27;API Gemini pour interroger le modèle d&#x27;IA de Google.">API</a> Gemini · modèles open-source · cPanel sur serveur dédié · Stripe · PayPal</p>
+
+              <h4>Les exigences transverses</h4>
+              <ul class="checks">
+                <li><b>Conformité</b> : RGPD, NIS 2, ISO 27001 et 27018, et le <b><a class="term" href="#lex-cloud-act" data-def="Cloud Act : Clarifying Lawful Overseas Use of Data Act&#10;Loi américaine qui permet aux autorités des États-Unis d&#x27;accéder aux données détenues par des entreprises américaines.&#10;Cela vaut même si ces données sont stockées hors des États-Unis.">Cloud Act</a></b>, puisque l'API Gemini est américaine.</li>
+                <li><b>Accessibilité</b> : outils internes au niveau <b>RGAA AA</b>, lecteurs d'écran (NVDA, JAWS), navigation au clavier.</li>
+                <li><b><a class="term" href="#lex-green-it" data-def="Green IT : Informatique verte&#10;Démarche qui vise à réduire l&#x27;impact environnemental du numérique.">Green IT</a></b> : virtualisation, matériel reconditionné, extinction automatique, FinOps.</li>
+                <li><b>Anglais</b> : résumé, procédures et veille CERT en anglais.</li>
+              </ul>
+
+              <h4>Livrables et évaluation</h4>
+              <ul class="checks">
+                <li>Un <b>dossier technique</b> de 30 à 35 pages, un support de présentation et un dossier professionnel.</li>
+                <li>Une <b>soutenance de 45 minutes</b> : 30 minutes de présentation, 15 minutes d'entretien technique.</li>
+                <li><b>36 compétences</b> en 4 blocs : chaque bloc doit être validé séparément.</li>
+                <li>Rendu le <b>23 août 2027</b>.</li>
+              </ul>
+            </div>
+          </details>
+        </li>
+        <li>
+          <span class="pico"><img src="images/projets/jeu-lac.png" alt="" loading="lazy" onerror="this.remove()"><span aria-hidden="true">J</span></span>
+          <h3>Un jeu pour Steam</h3>
+          <span class="chip">Perso</span>
+          <p>Un jeu où le joueur <b>crée son propre lac</b>, destiné à être publié sur <b>Steam</b>.</p>
+          <p><b>Mon rôle</b> : je voulais créer un jeu pour <b>Steam</b>.<br>J'ai demandé des idées à <b>Claude</b> et je m'en suis inspiré pour le <b>concept</b>.<br>Le <b>code est écrit par l'IA</b> : je donne les idées, je teste et je signale ce qu'il faut corriger.</p>
+          <p class="tags"><b>Godot</b> · codé avec Claude</p>
+        </li>
+        <li>
+          <span class="pico"><img src="images/projets/animes-mangas.png" alt="" loading="lazy" onerror="this.remove()"><span aria-hidden="true">A</span></span>
+          <h3>Application d'animés et de mangas</h3>
+          <span class="chip">Perso</span>
+          <p>Une <b>application</b> pour gérer ses <b>animés</b> et ses <b>mangas</b>.<br>Je la développe avec <b>Flutter</b> et le langage <b>Dart</b>.</p>
+          <p><b>Mon rôle</b> : l'<b>idée</b> est de moi.<br>Le <b>code est écrit par l'IA</b> : je donne les idées, je teste et je signale ce qu'il faut corriger.</p>
+          <p class="tags"><b>Flutter</b> · <b>Dart</b> · codé avec Gemini</p>
+        </li>
+      </ul>
+<h3 class="grp pgrp">Terminés</h3>
+      <ul class="projects">
+        <li>
+          <span class="pico"><img src="images/projets/sites.png" alt="" loading="lazy" onerror="this.remove()"><span aria-hidden="true">S</span></span>
+          <h3>Sites web</h3>
+          <span class="chip">Perso et stage</span>
+          <p><b>Plusieurs sites</b> créés, en <b>HTML/CSS</b> pour mes projets personnels et avec <b>WordPress</b> en stage.</p>
+        </li>
+        <li>
+          <span class="pico"><img src="images/projets/discord.png" alt="" loading="lazy" onerror="this.remove()"><span aria-hidden="true">D</span></span>
+          <h3>Serveurs Discord</h3>
+          <span class="chip">Perso</span>
+          <p>J'ai <b>créé</b> et <b>configuré</b> plusieurs serveurs.<br>Un serveur pour accompagner mon serveur <b>Minecraft</b>.<br>Un serveur <b>communautaire</b>.<br>Un serveur d'<b>aide aux devoirs</b>, qui s'est transformé en serveur d'<b>entraide</b> en général.<br>Un serveur pour mon <b>application d'animés et de mangas</b>.</p>
+        </li>
+      </ul>
+<h3 class="grp pgrp">Archivés ou abandonnés</h3>
+      <ul class="projects">
+        <li>
+          <span class="pico"><img src="images/projets/minecraft.png" alt="" loading="lazy" onerror="this.remove()"><span aria-hidden="true">M</span></span>
+          <h3>Serveur Minecraft</h3>
+          <span class="chip">Perso</span>
+          <p>Un serveur <b>moddé</b> en version <b>1.12.2</b>.<br>J'ai créé un <b>mod</b> pour le serveur et des <b>plugins personnalisés</b>.<br>J'ai aussi repris un <b>launcher</b> existant, que j'ai <b>modifié</b>.<br>Je l'ai <b>arrêté</b> faute de joueurs actifs.</p>
+          <p class="tags"><b>Minecraft 1.12.2</b> · mod · plugins · launcher</p>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section class="block" id="lexique">
+    <div class="wrap">
+      <div class="side"><h2>Lexique</h2><p>Les termes techniques des projets</p></div>
+      <dl class="lex">
+          <div id="lex-active-directory"><dt>Active Directory</dt><dd>Annuaire de Microsoft qui centralise les comptes des utilisateurs et leurs droits d'accès.</dd></div>
+          <div id="lex-aes-256"><dt>AES-256<span class="full">Advanced Encryption Standard, 256 bits</span></dt><dd>Algorithme de chiffrement qui utilise des clés de 256 bits.<br>C'est le standard pour protéger des données stockées.</dd></div>
+          <div id="lex-api"><dt>API<span class="full">Application Programming Interface</span></dt><dd>Interface qui permet à deux logiciels de communiquer.<br>N.O.A.H. passe par l'API Gemini pour interroger le modèle d'IA de Google.</dd></div>
+          <div id="lex-bastion"><dt>Bastion</dt><dd>Serveur sécurisé par lequel passent obligatoirement tous les accès d'administration.<br>Il permet de les contrôler et de les tracer.</dd></div>
+          <div id="lex-capex"><dt>CAPEX<span class="full">Capital Expenditure</span></dt><dd>Dépenses d'investissement.<br>C'est l'achat du matériel : serveurs, pare-feu, postes.</dd></div>
+          <div id="lex-cert-fr"><dt>CERT-FR<span class="full">Computer Emergency Response Team France</span></dt><dd>Centre gouvernemental rattaché à l'ANSSI (Agence nationale de la sécurité des systèmes d'information).<br>Il publie des alertes sur les failles et les attaques en cours.</dd></div>
+          <div id="lex-cloud-act"><dt>Cloud Act<span class="full">Clarifying Lawful Overseas Use of Data Act</span></dt><dd>Loi américaine qui permet aux autorités des États-Unis d'accéder aux données détenues par des entreprises américaines.<br>Cela vaut même si ces données sont stockées hors des États-Unis.</dd></div>
+          <div id="lex-edr-xdr"><dt>EDR / XDR<span class="full">Endpoint Detection and Response / Extended Detection and Response</span></dt><dd>Outils qui détectent les menaces et y réagissent.<br>L'EDR surveille les postes et les serveurs, le XDR l'ensemble du système.</dd></div>
+          <div id="lex-finops"><dt>FinOps<span class="full">Financial Operations</span></dt><dd>Démarche de suivi et de maîtrise des coûts du cloud.</dd></div>
+          <div id="lex-glpi"><dt>GLPI<span class="full">Gestionnaire Libre de Parc Informatique</span></dt><dd>Logiciel libre de gestion des tickets de support et de l'inventaire du parc informatique.</dd></div>
+          <div id="lex-green-it"><dt>Green IT<span class="full">Informatique verte</span></dt><dd>Démarche qui vise à réduire l'impact environnemental du numérique.</dd></div>
+          <div id="lex-https"><dt>HTTPS<span class="full">HyperText Transfer Protocol Secure</span></dt><dd>Version sécurisée du protocole utilisé pour afficher les pages web.<br>Les échanges y sont chiffrés avec TLS.</dd></div>
+          <div id="lex-ids-ips"><dt>IDS / IPS<span class="full">Intrusion Detection System / Intrusion Prevention System</span></dt><dd>Systèmes qui surveillent le réseau.<br>L'IDS détecte les tentatives d'intrusion, l'IPS les bloque.</dd></div>
+          <div id="lex-iso-27001"><dt>ISO 27001<span class="full">International Organization for Standardization, norme 27001</span></dt><dd>Norme internationale qui définit comment organiser et piloter la sécurité de l'information dans une entreprise.</dd></div>
+          <div id="lex-mfa"><dt>MFA<span class="full">Multi-Factor Authentication</span></dt><dd>Authentification à plusieurs facteurs.<br>En plus du mot de passe, il faut un code ou un appareil.<br>Un mot de passe volé ne suffit donc plus.</dd></div>
+          <div id="lex-moscow"><dt>MoSCoW<span class="full">Must have, Should have, Could have, Won&#x27;t have</span></dt><dd>Méthode de priorisation des besoins.<br>Must : indispensable.<br>Should : important.<br>Could : appréciable.<br>Won't : pas pour cette fois.</dd></div>
+          <div id="lex-ngfw"><dt>NGFW<span class="full">Next-Generation Firewall</span></dt><dd>Pare-feu de nouvelle génération.<br>Il filtre le trafic et inspecte aussi son contenu pour repérer les applications et les menaces.</dd></div>
+          <div id="lex-nis-2"><dt>NIS 2<span class="full">Network and Information Security, version 2</span></dt><dd>Directive européenne qui impose des mesures de cybersécurité aux entreprises de nombreux secteurs.<br>Elle oblige aussi à déclarer les incidents.</dd></div>
+          <div id="lex-opex"><dt>OPEX<span class="full">Operational Expenditure</span></dt><dd>Dépenses de fonctionnement qui reviennent chaque année : licences, maintenance, abonnements cloud, électricité.</dd></div>
+          <div id="lex-pca-pra"><dt>PCA / PRA<span class="full">Plan de Continuité d&#x27;Activité / Plan de Reprise d&#x27;Activité</span></dt><dd>Le PCA permet de continuer à fonctionner pendant une crise.<br>Le PRA permet de redémarrer après un sinistre.</dd></div>
+          <div id="lex-pci-dss"><dt>PCI-DSS<span class="full">Payment Card Industry Data Security Standard</span></dt><dd>Norme de sécurité obligatoire pour traiter des données de cartes bancaires.</dd></div>
+          <div id="lex-proxmox"><dt>Proxmox</dt><dd>Plateforme libre de virtualisation.<br>Elle fait tourner plusieurs machines virtuelles sur un même serveur.</dd></div>
+          <div id="lex-rbac"><dt>RBAC<span class="full">Role-Based Access Control</span></dt><dd>Gestion des droits selon le rôle.<br>Chaque personne n'accède qu'à ce dont son poste a besoin.</dd></div>
+          <div id="lex-rgaa"><dt>RGAA<span class="full">Référentiel Général d&#x27;Amélioration de l&#x27;Accessibilité</span></dt><dd>Référentiel français d'accessibilité numérique.<br>Il vise à rendre les outils utilisables par les personnes en situation de handicap.</dd></div>
+          <div id="lex-rgpd"><dt>RGPD<span class="full">Règlement Général sur la Protection des Données</span></dt><dd>Règlement européen qui encadre la collecte et la protection des données personnelles.</dd></div>
+          <div id="lex-rpo"><dt>RPO<span class="full">Recovery Point Objective</span></dt><dd>Quantité maximale de données qu'on accepte de perdre lors d'un incident.<br>Elle s'exprime en temps écoulé depuis la dernière sauvegarde.</dd></div>
+          <div id="lex-rto"><dt>RTO<span class="full">Recovery Time Objective</span></dt><dd>Durée maximale acceptée pour remettre un service en marche après un incident.</dd></div>
+          <div id="lex-sas"><dt>SAS<span class="full">Société par Actions Simplifiée</span></dt><dd>Forme juridique d'entreprise française, souple et courante chez les start-up.</dd></div>
+          <div id="lex-sd-wan"><dt>SD-WAN<span class="full">Software-Defined Wide Area Network</span></dt><dd>Technologie qui relie les sites et les télétravailleurs au réseau de l'entreprise.<br>Elle est pilotée par logiciel.</dd></div>
+          <div id="lex-security-by-design"><dt>Security by Design<span class="full">Sécurité dès la conception</span></dt><dd>Principe qui consiste à intégrer la sécurité dès la conception.<br>On ne l'ajoute pas après coup.</dd></div>
+          <div id="lex-siem"><dt>SIEM<span class="full">Security Information and Event Management</span></dt><dd>Outil qui rassemble les journaux de tous les équipements.<br>Il les analyse pour repérer les incidents de sécurité.</dd></div>
+          <div id="lex-soar"><dt>SOAR<span class="full">Security Orchestration, Automation and Response</span></dt><dd>Outil qui automatise la réponse aux incidents.<br>Il s'appuie sur des scénarios écrits à l'avance, appelés playbooks.</dd></div>
+          <div id="lex-sso"><dt>SSO<span class="full">Single Sign-On</span></dt><dd>Authentification unique.<br>On se connecte une fois pour accéder à toutes les applications.</dd></div>
+          <div id="lex-tco-roi"><dt>TCO / ROI<span class="full">Total Cost of Ownership / Return On Investment</span></dt><dd>Le TCO est le coût total de possession : achat, maintenance et énergie sur plusieurs années.<br>Le ROI est le retour sur investissement.</dd></div>
+          <div id="lex-tls-1-3"><dt>TLS 1.3<span class="full">Transport Layer Security, version 1.3</span></dt><dd>Dernière version du protocole qui chiffre les échanges sur le réseau.<br>C'est lui qui protège les sites en HTTPS.</dd></div>
+          <div id="lex-vlan"><dt>VLAN<span class="full">Virtual Local Area Network</span></dt><dd>Réseau local virtuel.<br>Il découpe un réseau physique en plusieurs réseaux isolés les uns des autres.</dd></div>
+          <div id="lex-vpn"><dt>VPN<span class="full">Virtual Private Network</span></dt><dd>Tunnel chiffré qui relie un appareil distant au réseau de l'entreprise.</dd></div>
+          <div id="lex-wpa3"><dt>WPA3-Enterprise<span class="full">Wi-Fi Protected Access 3, version Entreprise</span></dt><dd>Sécurité Wi-Fi où chaque collaborateur se connecte avec ses propres identifiants.</dd></div>
+          <div id="lex-zero-trust"><dt>Zero Trust<span class="full">Confiance zéro</span></dt><dd>Modèle de sécurité où aucun accès n'est fiable par défaut.<br>Chaque connexion est vérifiée, même depuis l'intérieur du réseau.</dd></div>
+          <div id="lex-ztna"><dt>ZTNA<span class="full">Zero Trust Network Access</span></dt><dd>Accès distant fondé sur le Zero Trust.<br>Il remplace souvent un VPN classique.</dd></div>
+      </dl>
+    </div>
+  </section>
+  </main>
+
+  <footer>
+    <div class="wrap"><p>Guillaume Sainson · 2026</p></div>
+  </footer>
+  <script src="js/anim.js"></script>
+</body>
+</html>
