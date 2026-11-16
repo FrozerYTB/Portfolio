@@ -8,7 +8,7 @@
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
   }
-  document.querySelectorAll('.term').forEach(function (t) {
+  document.querySelectorAll('a.term').forEach(function (t) {
     var place = function () {
       var r = t.getBoundingClientRect();
       t.classList.toggle('tip-right', r.left + 290 > window.innerWidth);
@@ -20,7 +20,7 @@
   if (reduce || !('IntersectionObserver' in window)) return;
   root.classList.add('anim');
   // Terminal de l'accueil : les commandes se tapent, les réponses s'affichent ligne par ligne
-  var term = document.querySelector('.term');
+  var term = document.querySelector('.console');
   if (term) {
     var lines = Array.prototype.slice.call(term.querySelectorAll('.ln'));
     var texts = lines.map(function (l) { var t = l.querySelector('.tx'); return t ? t.textContent : null; });
