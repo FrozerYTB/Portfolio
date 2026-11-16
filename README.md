@@ -76,6 +76,7 @@ Aucune installation n'est nécessaire : pas de Node.js, pas de dépendances, pas
 │   ├── competences/      Icônes des boîtes de compétences
 │   ├── contact/          Icônes LinkedIn et GitHub
 │   ├── loisirs/          Icônes des loisirs
+│   ├── profil/           Photo de profil (photo.jpg)
 │   ├── projets/          Icônes des projets
 │   └── ICONES-A-AJOUTER.txt
 └── README.md
@@ -115,6 +116,10 @@ Toutes les couleurs et polices sont définies en tête de `css/style.css`, dans 
 Déposer un fichier PNG dans le sous-dossier de la page concernée, avec le nom attendu (en minuscules, sans espace). La liste des noms se trouve dans `images/ICONES-A-AJOUTER.txt`. Tant qu'une icône manque, la boîte affiche des initiales à la place.
 
 > Sur GitHub Pages, les noms de fichiers sont sensibles à la casse : `Python.png` et `python.png` ne sont pas le même fichier.
+
+### Ajouter ou changer la photo
+
+Déposer une image carrée nommée `photo.jpg` dans `images/profil/`. Elle s'affiche dans un rond au centre du flocon de la page d'accueil. Sans ce fichier, le flocon s'affiche seul.
 
 ### Ajouter une boîte de compétence
 

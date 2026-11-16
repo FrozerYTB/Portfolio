@@ -17,3 +17,6 @@ images/loisirs/       complet
 
 
 images/contact/       complet
+
+images/profil/       optionnel :
+  photo.jpg          ta photo (carrée, visage centré, 600 x 600 px ou plus)

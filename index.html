@@ -36,11 +36,60 @@
         <h1>Cybersécurité, développement, et quelques <em>serveurs</em> au passage.</h1>
         <p class="lead">Je m'appelle <b>Guillaume Sainson</b>, j'ai 22 ans et j'habite en <b>Île-de-France</b>.<br>Je suis en 3<sup>e</sup> année de <b>Bachelor Cybersécurité</b>, après un <b>BTS SIO SLAM</b> et un <b>Bac Pro Systèmes Numériques</b>.</p>
       </div>
-      <div class="flake"><canvas id="flake" role="img" aria-label="Flocon de neige dessiné comme un schéma de réseau"></canvas></div>
+      <div class="flake"><img class="avatar" src="images/profil/photo.jpg" alt="Photo de Guillaume Sainson" onerror="this.remove()"><canvas id="flake" role="img" aria-label="Flocon de neige dessiné comme un schéma de réseau"></canvas></div>
+      <dl class="idcard" aria-label="En bref">
+        <div><dt>Formation</dt><dd>Bachelor 3 Cybersécurité, Nexa Digital School</dd></div>
+        <div><dt>Domaines</dt><dd>Systèmes, réseaux et sécurité</dd></div>
+        <div><dt>Expérience</dt><dd>5 stages en informatique</dd></div>
+        <div><dt>En ce moment</dt><dd>Projet de certification</dd></div>
+        <div><dt>Lieu</dt><dd>Île-de-France</dd></div>
+      </dl>
     </div>
   </div>
 
   
+
+    <section class="home-band" aria-label="En bref">
+      <div class="wrap">
+        <div class="term" aria-label="Terminal de présentation">
+          <div class="term-bar"><i></i><i></i><i></i><span>guillaume@portfolio : ~</span></div>
+          <div class="term-body">
+            <p class="ln cmd"><span class="pr">$</span> <span class="tx">whoami</span></p>
+            <p class="ln out">Guillaume Sainson, 22 ans, étudiant en Bachelor 3 Cybersécurité</p>
+            <p class="ln cmd"><span class="pr">$</span> <span class="tx">cat domaines.txt</span></p>
+            <p class="ln out">Systèmes · Réseaux · Sécurité · Cloud</p>
+            <p class="ln cmd"><span class="pr">$</span> <span class="tx">ls projets/</span></p>
+            <p class="ln out">noah/  certification/  jeu-steam/  app-animes/</p>
+            <p class="ln cmd"><span class="pr">$</span> <span class="tx">./en-ce-moment.sh</span></p>
+            <p class="ln out">&gt; Projet de certification : sections 1 et 2 rédigées</p>
+            <p class="ln out">&gt; Entraînement sur TryHackMe et Root-Me</p>
+            <p class="ln cmd last"><span class="pr">$</span> <span class="cur" aria-hidden="true"></span></p>
+          </div>
+        </div>
+        <div class="featured">
+          <p class="eyebrow">À la une</p>
+          <a class="feat" href="projets.html#projet-certification">
+            <span class="feat-tag">Projet de certification · en cours</span>
+            <strong>L'infrastructure sécurisée d'une start-up de 25 personnes</strong>
+            <span>6 VLAN, architecture Zero Trust, MFA pour tous les comptes et 99,9 % de disponibilité visée.</span>
+          </a>
+          <a class="feat" href="projets.html#projet-noah">
+            <span class="feat-tag">Projet perso · en ligne</span>
+            <strong>N.O.A.H., mon assistant IA</strong>
+            <span>Un assistant conversationnel centré sur le respect de la vie privée, en ligne sur noah-ia.fr.</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <dl class="stats">
+        <div><dt>5</dt><dd>stages en informatique</dd></div>
+        <div><dt>7</dt><dd>projets, perso et école</dd></div>
+        <div><dt>27</dt><dd>compétences et outils</dd></div>
+        <div><dt>2</dt><dd>plateformes d'entraînement cyber</dd></div>
+      </dl>
+    </div>
     <div class="wrap">
       <nav class="doors" aria-label="Aller à une page">
         <a href="projets.html"><strong>Projets</strong><span><b>N.O.A.H.</b>, mon IA, un jeu pour <b>Steam</b>, mon projet de certification.</span></a>

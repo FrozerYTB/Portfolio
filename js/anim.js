@@ -19,7 +19,34 @@
   });
   if (reduce || !('IntersectionObserver' in window)) return;
   root.classList.add('anim');
-  var sel = 'h2, .pagehead, .intro, .hint, .projects > li, .tile, .path li, .links a, .doors a';
+  // Terminal de l'accueil : les commandes se tapent, les réponses s'affichent ligne par ligne
+  var term = document.querySelector('.term');
+  if (term) {
+    var lines = Array.prototype.slice.call(term.querySelectorAll('.ln'));
+    var texts = lines.map(function (l) { var t = l.querySelector('.tx'); return t ? t.textContent : null; });
+    term.classList.add('typing');
+    var play = function () {
+      var i = 0;
+      var next = function () {
+        if (i >= lines.length) return;
+        var l = lines[i], t = l.querySelector('.tx'), full = texts[i];
+        l.classList.add('shown');
+        if (t && full) {
+          t.textContent = ''; var c = 0;
+          var tick = setInterval(function () {
+            t.textContent = full.slice(0, ++c);
+            if (c >= full.length) { clearInterval(tick); i++; setTimeout(next, 260); }
+          }, 55);
+        } else { i++; setTimeout(next, l.classList.contains('out') ? 140 : 300); }
+      };
+      next();
+    };
+    var to = new IntersectionObserver(function (es) {
+      if (es[0].isIntersecting) { to.disconnect(); setTimeout(play, 350); }
+    }, { threshold: 0.3 });
+    to.observe(term);
+  }
+  var sel = '.feat, .stats div, h2, .pagehead, .intro, .hint, .projects > li, .tile, .path li, .links a, .doors a';
   var els = Array.prototype.slice.call(document.querySelectorAll(sel));
   els.forEach(function (el) { el.classList.add('reveal'); });
   document.querySelectorAll('.tiles').forEach(function (ul) {
