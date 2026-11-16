@@ -4,7 +4,7 @@ Portfolio personnel d'un étudiant en **3e année de Bachelor Cybersécurité** 
 
 Le site présente mes projets, mes compétences, mon parcours et mes loisirs. Il est écrit en HTML, CSS et JavaScript, sans framework ni étape de compilation.
 
-**Site en ligne :** https://VOTRE-PSEUDO.github.io/portfolio/
+**Site en ligne :** https://frozerytb.github.io/Portfolio
 
 ---
 
