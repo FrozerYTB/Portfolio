@@ -4,7 +4,7 @@ Portfolio personnel d'un étudiant en **3e année de Bachelor Cybersécurité** 
 
 Le site présente mes projets, mes compétences, mon parcours et mes loisirs. Il est écrit en HTML, CSS et JavaScript, sans framework ni étape de compilation.
 
-**Site en ligne :** https://frozerytb.github.io/Portfolio
+**Site en ligne :** https://VOTRE-PSEUDO.github.io/portfolio/
 
 ---
 
@@ -57,6 +57,31 @@ Le site présente mes projets, mes compétences, mon parcours et mes loisirs. Il
 
 Aucune installation n'est nécessaire : pas de Node.js, pas de dépendances, pas de compilation.
 
+## Structure du projet
+
+```
+.
+├── index.html            Accueil
+├── projets.html          Projets et lexique
+├── competences.html      Compétences et programme du bachelor
+├── parcours.html         Formation et stages
+├── loisirs.html          Loisirs
+├── contact.html          Contact
+├── css/
+│   └── style.css         Mise en forme commune à toutes les pages
+├── js/
+│   ├── anim.js           Animations, ombre du menu, position des bulles du lexique
+│   └── flocon.js         Flocon-réseau animé de la page d'accueil
+├── images/
+│   ├── competences/      Icônes des boîtes de compétences
+│   ├── contact/          Icônes LinkedIn et GitHub
+│   ├── loisirs/          Icônes des loisirs
+│   ├── profil/           Photo de profil (photo.jpg)
+│   ├── projets/          Icônes des projets
+│   └── ICONES-A-AJOUTER.txt
+└── README.md
+```
+
 ## Lancer le site en local
 
 Le plus simple : ouvrir `index.html` dans un navigateur.
@@ -70,6 +95,39 @@ python -m http.server 8000
 puis ouvrir http://localhost:8000 dans le navigateur.
 
 Une connexion Internet est nécessaire pour charger les polices. Sans elle, le site s'affiche avec des polices de secours.
+
+## Déploiement sur GitHub Pages
+
+1. Envoyer le contenu du dossier à la racine du dépôt, de sorte que `index.html` soit au premier niveau.
+2. Dans le dépôt, ouvrir **Settings**, puis **Pages**.
+3. Dans **Build and deployment**, choisir **Deploy from a branch**, la branche `main` et le dossier `/ (root)`, puis enregistrer.
+4. Après une à deux minutes, le site est disponible à l'adresse indiquée sur la même page.
+
+Chaque nouvel envoi sur la branche `main` met le site à jour automatiquement.
+
+## Personnaliser le site
+
+### Couleurs et polices
+
+Toutes les couleurs et polices sont définies en tête de `css/style.css`, dans le bloc `:root`. Le thème sombre redéfinit les mêmes variables plus bas dans le fichier. Modifier une variable suffit à changer la couleur partout.
+
+### Ajouter ou remplacer une icône
+
+Déposer un fichier PNG dans le sous-dossier de la page concernée, avec le nom attendu (en minuscules, sans espace). La liste des noms se trouve dans `images/ICONES-A-AJOUTER.txt`. Tant qu'une icône manque, la boîte affiche des initiales à la place.
+
+> Sur GitHub Pages, les noms de fichiers sont sensibles à la casse : `Python.png` et `python.png` ne sont pas le même fichier.
+
+### Ajouter ou changer la photo
+
+Déposer une image carrée nommée `photo.jpg` dans `images/profil/`. Elle s'affiche dans un rond au centre du flocon de la page d'accueil. Sans ce fichier, le flocon s'affiche seul.
+
+### Ajouter une boîte de compétence
+
+Copier une boîte existante dans `competences.html` (un élément `<li class="tile">`) et modifier le nom, l'icône, la description et, si besoin, le niveau.
+
+### Ajouter une page
+
+Le menu et le pied de page sont écrits dans chacun des six fichiers HTML. Pour ajouter une page, créer le nouveau fichier à partir d'une page existante, puis ajouter son lien dans le menu de **toutes** les pages.
 
 ## Accessibilité
 
