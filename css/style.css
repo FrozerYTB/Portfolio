@@ -398,7 +398,7 @@ h3.pgrp:first-child { margin-top: 0; }
 .kpis { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
 .kpis dt { white-space: nowrap; font-size: 22px; }
 
-/* Mots du lexique : bulle au survol, lien vers le lexique au clic */
+/* Mots techniques : bulle de définition au survol */
 a.term { position: relative; color: inherit; text-decoration: underline dotted; text-decoration-color: var(--accent); text-underline-offset: 3px; text-decoration-thickness: 1.5px; cursor: help; }
 a.term:hover, a.term:focus-visible { color: var(--accent); }
 a.term::after {

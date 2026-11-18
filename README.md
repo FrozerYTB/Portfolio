@@ -28,7 +28,7 @@ Le site présente mes projets, mes compétences, mon parcours et mes loisirs. Il
 | Page | Fichier | Contenu |
 | --- | --- | --- |
 | Accueil | `index.html` | Présentation, flocon-réseau animé et accès rapide aux autres pages |
-| Projets | `projets.html` | Projets rangés par état (en ligne, en cours, terminés, archivés), détail du projet de certification et lexique technique |
+| Projets | `projets.html` | Projets rangés par état (en ligne, en cours, terminés, archivés), détail du projet de certification |
 | Compétences | `competences.html` | Boîtes de compétences par domaine et programme du bachelor |
 | Parcours | `parcours.html` | Formation et stages |
 | Loisirs | `loisirs.html` | Sports et centres d'intérêt |
@@ -40,7 +40,7 @@ Le site présente mes projets, mes compétences, mon parcours et mes loisirs. Il
 - **Profils cliquables** : les boîtes TryHackMe, Root-Me et GitHub ouvrent le profil correspondant.
 - **Projets classés par état**, avec une étiquette perso, école ou stage.
 - **Bloc « En savoir plus »** sur le projet de certification : cas d'étude, objectifs chiffrés, classification des données, budget, priorisation MoSCoW et les quatre volets du projet. Il fonctionne aussi sans JavaScript.
-- **Lexique technique** : les termes soulignés en pointillés affichent leur définition au survol et mènent au lexique au clic. Chaque sigle est accompagné de sa forme développée.
+- **Définitions au survol** : les termes techniques soulignés en pointillés affichent leur définition dans une bulle. Chaque sigle est accompagné de sa forme développée.
 - **Animations légères** : apparition des éléments au défilement, boîtes qui se soulèvent au survol, niveaux qui se remplissent, ombre du menu au défilement.
 - **Thème clair et sombre** selon le réglage du système du visiteur.
 - **Mise en page adaptée** aux ordinateurs, tablettes et téléphones.
@@ -62,7 +62,7 @@ Aucune installation n'est nécessaire : pas de Node.js, pas de dépendances, pas
 ```
 .
 ├── index.html            Accueil
-├── projets.html          Projets et lexique
+├── projets.html          Projets
 ├── competences.html      Compétences et programme du bachelor
 ├── parcours.html         Formation et stages
 ├── loisirs.html          Loisirs
@@ -70,7 +70,7 @@ Aucune installation n'est nécessaire : pas de Node.js, pas de dépendances, pas
 ├── css/
 │   └── style.css         Mise en forme commune à toutes les pages
 ├── js/
-│   ├── anim.js           Animations, ombre du menu, position des bulles du lexique
+│   ├── anim.js           Animations, ombre du menu, position des bulles de définition
 │   └── flocon.js         Flocon-réseau animé de la page d'accueil
 ├── images/
 │   ├── competences/      Icônes des boîtes de compétences
